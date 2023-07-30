@@ -54,3 +54,10 @@ body {
 .input-box input::-webkit-outer-spin-button {
     display: none;
 }
+@media screen and (max-width: 520px) { 
+    .hero-heading {
+        display: flex;
+        text-align: center;
+        font-size: 40px;
+    }
+}
